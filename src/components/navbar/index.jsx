@@ -18,7 +18,7 @@ function Navbar() {
             }`}
             onClick={() => setActive("SERVICES")}
           >
-            <a href={`#`}>SERVICES</a>
+            <a href="#">SERVICES</a>
           </li>
           <li
             className={`font-inter text-white font-medium cursor-pointer text-sm mr-6 ${
@@ -26,7 +26,7 @@ function Navbar() {
             }`}
             onClick={() => setActive("ABOUT US")}
           >
-            <a href={`#`}>ABOUT US</a>
+            <a href="#">ABOUT US</a>
           </li>
           <li
             className={`font-inter text-white font-medium cursor-pointer text-sm mr-6 ${
@@ -34,7 +34,7 @@ function Navbar() {
             }`}
             onClick={() => setActive("CONTACT US")}
           >
-            <a href={`#`}>CONTACT US</a>
+            <a href="#">CONTACT US</a>
           </li>
           <li
             className={`font-inter text-white font-medium cursor-pointer text-sm mr-6 ${
@@ -42,7 +42,7 @@ function Navbar() {
             }`}
             onClick={() => setActive("CAREERS")}
           >
-            <a href={`#`}>CAREERS</a>
+            <a href="#">CAREERS</a>
           </li>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -66,7 +66,7 @@ function Navbar() {
                 }`}
                 onClick={() => setActive("HOME")}
               >
-                <a href={`#`}>HOME</a>
+                <a href="#">HOME</a>
               </li>
               <li
                 className={`font-inter text-black font-medium cursor-pointer text-sm mr-6 mb-12 mt-2 ${
@@ -74,7 +74,7 @@ function Navbar() {
                 }`}
                 onClick={() => setActive("SERVICES")}
               >
-                <a href={`#`}>SERVICES</a>
+                <a href="#">SERVICES</a>
               </li>
               <li
                 className={`font-inter text-black font-medium cursor-pointer text-sm mr-6 mb-12 mt-2 ${
@@ -82,7 +82,7 @@ function Navbar() {
                 }`}
                 onClick={() => setActive("ABOUT US")}
               >
-                <a href={`#`}>ABOUT US</a>
+                <a href="#">ABOUT US</a>
               </li>
               <li
                 className={`font-inter text-black font-medium cursor-pointer text-sm mr-6 mb-12 mt-2 ${
@@ -90,7 +90,7 @@ function Navbar() {
                 }`}
                 onClick={() => setActive("CONTACT US")}
               >
-                <a href={`#`}>CONTACT US</a>
+                <a href="#">CONTACT US</a>
               </li>
               <li
                 className={`font-inter text-black font-medium cursor-pointer text-sm mr-6 mb-12 mt-2 ${
@@ -98,7 +98,7 @@ function Navbar() {
                 }`}
                 onClick={() => setActive("CAREERS")}
               >
-                <a href={`#`}>CAREERS</a>
+                <a href="#">CAREERS</a>
               </li>
             </ul>
           </div>
